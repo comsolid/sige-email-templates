@@ -1,4 +1,6 @@
-#Email Lab
+#Fork from Email Lab
+
+**Note: If you looking for the email-lab original project, [It's here](https://github.com/sparkbox/email-lab)**.
 
 This a project for developing and testing email templates. It uses Grunt, a command-line build tool,
 to streamline and simplify the creation of email templates. Email template can be built with re-usable
@@ -70,17 +72,7 @@ template simply create a new file in `src/templates/emails` with the .hbs extens
 This project provides some standard boilerplate HTML markup and styling for emails. We recommend checking out these
 other resources for additional layout templates and styling best practices:
 
-- [HTML Email Boilerplate](https://github.com/seanpowell/Email-Boilerplate) - Well-documented boilerplate template 
+- [HTML Email Boilerplate](https://github.com/seanpowell/Email-Boilerplate) - Well-documented boilerplate template
 - [Mailchimp Email Blueprints](https://github.com/mailchimp/Email-Blueprints) - Lots of template for various layouts, including responsive template
 - [Mailchimp Email Design Reference](http://templates.mailchimp.com/) - Great reference guide for designing HTML emails
 - [Email Client Market Share](http://emailclientmarketshare.com/) - List of the most popular email clients
-
-##Caveats
-
-Designing email templates is hard. Markup and styling for emails clients can be very different from what you would 
-develop for the browser. This project is intended to 
-
-##Todo
-
-- Create Yeoman generator that configures options, sets up Nodemailer and generates new email templates
-- Handle images locally during dev, but replace with hosted images for testing
